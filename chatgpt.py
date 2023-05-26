@@ -5,8 +5,7 @@ openai.api_key = APIKEY
 output = openai.ChatCompletion.create(
   model="gpt-3.5-turbo", 
   messages=[{"role": "user", "content": 
-             "Write me a script for hosting a \
-             conference on technology"}]
+             "Hello there, tell me more about yourself?"}]
 )
 
 # Print out the whole output dictionary
